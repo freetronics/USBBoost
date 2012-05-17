@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4171,16 +4171,16 @@ www.richtek.com/download_ds.jsp?s=631</description>
 </classes>
 <parts>
 <part name="C1" library="freetronics-jon" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="R15" library="freetronics-original" deviceset="RESISTOR" device="0603" value="20k0"/>
-<part name="R6" library="freetronics-original" deviceset="RESISTOR" device="0603" value="180k"/>
+<part name="R14" library="freetronics-original" deviceset="RESISTOR" device="0603" value="20k0"/>
+<part name="R5" library="freetronics-original" deviceset="RESISTOR" device="0603" value="180k"/>
 <part name="C2" library="freetronics-jon" deviceset="C-EU" device="C1206K" value="22uF"/>
-<part name="R9" library="freetronics-original" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R8" library="freetronics-original" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="J1" library="freetronics-master-v1" deviceset="M02" device="PTH" value="Input"/>
 <part name="X1" library="freetronics-master-v1" deviceset="USB" device="_"/>
 <part name="R2" library="freetronics-original" deviceset="RESISTOR" device="0603" value="75k"/>
-<part name="R5" library="freetronics-original" deviceset="RESISTOR" device="0603" value="49k9"/>
-<part name="R1" library="freetronics-original" deviceset="RESISTOR" device="0603" value="75k"/>
 <part name="R4" library="freetronics-original" deviceset="RESISTOR" device="0603" value="49k9"/>
+<part name="R1" library="freetronics-original" deviceset="RESISTOR" device="0603" value="75k"/>
+<part name="R3" library="freetronics-original" deviceset="RESISTOR" device="0603" value="49k9"/>
 <part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="Power"/>
 <part name="L1" library="freetronics-luke" deviceset="INDUCTOR" device="" value="6.8 uH"/>
 <part name="F1" library="freetronics-luke" deviceset="PTC" device="" value="500mA PTC"/>
@@ -4194,14 +4194,14 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <part name="J2" library="freetronics-luke" deviceset="SJ" device="" value="3.75V"/>
 <part name="J3" library="freetronics-luke" deviceset="SJ" device="" value="2.33V"/>
 <part name="J4" library="freetronics-luke" deviceset="SJ" device="" value="1.17V"/>
-<part name="R13" library="freetronics-original" deviceset="RESISTOR" device="0603" value="26k7"/>
-<part name="R12" library="freetronics-original" deviceset="RESISTOR" device="0603" value="73k2"/>
-<part name="R11" library="freetronics-original" deviceset="RESISTOR" device="0603" value="130k"/>
-<part name="R14" library="freetronics-original" deviceset="RESISTOR" device="0603" value="20k"/>
+<part name="R12" library="freetronics-original" deviceset="RESISTOR" device="0603" value="26k7"/>
+<part name="R11" library="freetronics-original" deviceset="RESISTOR" device="0603" value="73k2"/>
+<part name="R10" library="freetronics-original" deviceset="RESISTOR" device="0603" value="130k"/>
+<part name="R13" library="freetronics-original" deviceset="RESISTOR" device="0603" value="20k"/>
 <part name="U$10" library="freetronics-luke" deviceset="GND" device=""/>
+<part name="R6" library="freetronics-original" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R7" library="freetronics-original" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R8" library="freetronics-original" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="R10" library="freetronics-original" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R9" library="freetronics-original" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="LED2" library="freetronics-master-v1" deviceset="LED" device="0603" value="Low Batt"/>
 <part name="U$3" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="J5" library="freetronics-master-v1" deviceset="M02" device="PTH" value="Status"/>
@@ -4214,13 +4214,13 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <sheet>
 <plain>
 <text x="205.74" y="101.6" size="1.4224" layer="98">Vout = 5.0V</text>
-<text x="30.48" y="111.76" size="1.4224" layer="98">or 2 x alkaline or NiMH</text>
-<text x="30.48" y="114.3" size="1.4224" layer="98">eg. single-cell Li-ion battery</text>
+<text x="30.48" y="111.76" size="1.27" layer="98">or 1 or 2x alkaline (1.5V) or NiMH (1.2V) cells.</text>
+<text x="30.48" y="114.3" size="1.27" layer="98">eg. single-cell Li-ion battery</text>
 <text x="129.54" y="81.28" size="1.4224" layer="98">1%</text>
 <text x="129.54" y="58.42" size="1.4224" layer="98">1%</text>
 <text x="157.48" y="63.5" size="1.4224" layer="98">Blue 0603</text>
 <text x="205.74" y="99.06" size="1.4224" layer="98">at 500mA max.</text>
-<text x="66.04" y="134.62" size="1.4224" layer="98">USB data bus bias voltage = 2.0V for iPhone at 500mA charge current. </text>
+<text x="142.24" y="144.78" size="1.4224" layer="98">USB data bus bias voltage = 2.0V for iPhone at 500mA charge current. </text>
 <text x="187.96" y="96.52" size="1.4224" layer="98">1812</text>
 <text x="63.5" y="76.2" size="1.4224" layer="98">0603</text>
 <text x="205.74" y="96.52" size="1.4224" layer="98">USB `A' socket</text>
@@ -4228,9 +4228,9 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <text x="180.34" y="127" size="1.4224" layer="98">0603</text>
 <text x="193.04" y="127" size="1.4224" layer="98">0603</text>
 <text x="193.04" y="109.22" size="1.4224" layer="98">0603</text>
-<text x="66.04" y="132.08" size="1.4224" layer="98">See http://www.ladyada.net/make/mintyboost/icharge.html</text>
+<text x="142.24" y="142.24" size="1.4224" layer="98">See http://www.ladyada.net/make/mintyboost/icharge.html</text>
 <text x="30.48" y="116.84" size="1.27" layer="98">Input voltage: 1.2 to 4.5V DC.</text>
-<text x="86.36" y="104.14" size="1.27" layer="98">CDRH</text>
+<text x="88.9" y="106.68" size="1.27" layer="98">CDRH</text>
 <text x="53.34" y="81.28" size="1.27" layer="98">10V</text>
 <text x="40.64" y="71.12" size="1.27" layer="98">C1: 0805 ceramic</text>
 <text x="190.5" y="63.5" size="1.4224" layer="98">Red 0603</text>
@@ -4256,18 +4256,19 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="5.08" y1="12.7" x2="109.22" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="5.08" y1="5.08" x2="109.22" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<text x="78.74" y="109.22" size="1.27" layer="98">Inductor - same device as used on EtherMega.</text>
+<text x="88.9" y="104.14" size="1.27" layer="98">Inductor - same device as used on EtherMega.</text>
+<text x="30.48" y="121.92" size="1.27" layer="98">Jumpers J2, J3 and J4 change the input voltage to the internal low-battery comparator output.</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="50.8" y="91.44" smashed="yes">
 <attribute name="NAME" x="53.34" y="86.36" size="1.27" layer="95"/>
 <attribute name="VALUE" x="53.34" y="83.82" size="1.27" layer="96"/>
 </instance>
-<instance part="R15" gate="G$1" x="137.16" y="66.04" smashed="yes" rot="R90">
+<instance part="R14" gate="G$1" x="137.16" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="129.54" y="66.04" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="129.54" y="63.5" size="1.4224" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R270">
+<instance part="R5" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="129.54" y="88.9" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="129.54" y="86.36" size="1.4224" layer="96"/>
 </instance>
@@ -4275,7 +4276,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <attribute name="NAME" x="144.78" y="86.36" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="144.78" y="83.82" size="1.4224" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="172.72" y="83.82" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="172.72" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="175.26" y="86.36" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="175.26" y="83.82" size="1.4224" layer="96"/>
 </instance>
@@ -4288,7 +4289,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <attribute name="NAME" x="193.04" y="132.08" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="193.04" y="129.54" size="1.4224" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R270">
+<instance part="R4" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="193.04" y="114.3" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="193.04" y="111.76" size="1.4224" layer="96"/>
 </instance>
@@ -4296,7 +4297,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <attribute name="NAME" x="180.34" y="132.08" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="180.34" y="129.54" size="1.4224" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="177.8" y="114.3" smashed="yes" rot="R270">
+<instance part="R3" gate="G$1" x="177.8" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="180.34" y="114.3" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="180.34" y="111.76" size="1.4224" layer="96"/>
 </instance>
@@ -4345,34 +4346,34 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <attribute name="NAME" x="83.82" y="93.98" size="1.27" layer="95"/>
 <attribute name="VALUE" x="83.82" y="91.44" size="1.27" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="81.28" y="81.28" smashed="yes" rot="R90">
+<instance part="R12" gate="G$1" x="81.28" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="81.28" size="1.27" layer="95"/>
 <attribute name="VALUE" x="83.82" y="78.74" size="1.27" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="71.12" y="81.28" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="71.12" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="81.28" size="1.27" layer="95"/>
 <attribute name="VALUE" x="73.66" y="78.74" size="1.27" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="60.96" y="81.28" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="60.96" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="81.28" size="1.27" layer="95"/>
 <attribute name="VALUE" x="63.5" y="78.74" size="1.27" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="60.96" y="66.04" smashed="yes" rot="R90">
+<instance part="R13" gate="G$1" x="60.96" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="66.04" size="1.27" layer="95"/>
 <attribute name="VALUE" x="63.5" y="63.5" size="1.27" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="60.96" y="55.88" smashed="yes">
 <attribute name="VALUE" x="59.309" y="53.34" size="1.27" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="152.4" y="83.82" smashed="yes" rot="R270">
+<instance part="R6" gate="G$1" x="152.4" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="154.94" y="86.36" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="154.94" y="83.82" size="1.4224" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="162.56" y="83.82" smashed="yes" rot="R270">
+<instance part="R7" gate="G$1" x="162.56" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="165.1" y="86.36" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="165.1" y="83.82" size="1.4224" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="180.34" y="83.82" smashed="yes" rot="R270">
+<instance part="R9" gate="G$1" x="180.34" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="86.36" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="182.88" y="83.82" size="1.4224" layer="96"/>
 </instance>
@@ -4417,7 +4418,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 </segment>
 <segment>
 <wire x1="137.16" y1="58.42" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -4427,12 +4428,12 @@ www.richtek.com/download_ds.jsp?s=631</description>
 </segment>
 <segment>
 <wire x1="190.5" y1="106.68" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="177.8" y1="106.68" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -4441,7 +4442,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <pinref part="U$9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <wire x1="60.96" y1="60.96" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -4501,8 +4502,8 @@ www.richtek.com/download_ds.jsp?s=631</description>
 </net>
 <net name="FB" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="78.74" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <junction x="137.16" y="78.74"/>
 <wire x1="134.62" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
@@ -4514,7 +4515,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <net name="N$8" class="0">
 <segment>
 <wire x1="172.72" y1="71.12" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -4537,21 +4538,21 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <wire x1="177.8" y1="139.7" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
 <junction x="172.72" y="91.44"/>
 <junction x="177.8" y="139.7"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="P$1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="1"/>
 <junction x="137.16" y="96.52"/>
 <wire x1="162.56" y1="88.9" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="88.9" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="152.4" y="96.52"/>
 <junction x="162.56" y="96.52"/>
 <junction x="142.24" y="96.52"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="91.44" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
 <junction x="180.34" y="91.44"/>
 <wire x1="152.4" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
@@ -4576,7 +4577,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <wire x1="203.2" y1="124.46" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
 <junction x="177.8" y="124.46"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="D-"/>
 </segment>
 </net>
@@ -4589,7 +4590,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <wire x1="200.66" y1="121.92" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
 <junction x="190.5" y="121.92"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="D+"/>
 </segment>
 </net>
@@ -4605,27 +4606,27 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="88.9" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="88.9" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="88.9" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!PGOOD" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="76.2" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
 <junction x="152.4" y="76.2"/>
@@ -4638,7 +4639,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <net name="!LBO" class="0">
 <segment>
 <wire x1="162.56" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="73.66" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <junction x="162.56" y="73.66"/>
@@ -4655,20 +4656,20 @@ www.richtek.com/download_ds.jsp?s=631</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LBI" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="76.2" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="71.12" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="76.2" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
