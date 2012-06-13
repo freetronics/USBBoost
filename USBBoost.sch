@@ -4260,6 +4260,7 @@ www.richtek.com/download_ds.jsp?s=631</description>
 <text x="20.32" y="147.32" size="1.27" layer="98">Jumpers J2, J3 and J4 change the input voltage to the internal low-battery comparator output.</text>
 <text x="154.94" y="99.06" size="1.4224" layer="98">Blue</text>
 <text x="177.8" y="99.06" size="1.4224" layer="98">Red</text>
+<text x="20.32" y="55.88" size="1.778" layer="91">Bridge across J2 after other routing</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="40.64" y="104.14" smashed="yes">
